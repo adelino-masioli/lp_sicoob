@@ -1,0 +1,747 @@
+*{
+	outline: none;
+	font-family: 'Roboto', sans-serif!important;
+	font-weight: 300;
+}
+body{
+	margin:0px!important;
+	padding: 0px!important;
+}
+section{
+	float: left;
+	width: 100%;
+	text-align:center;
+}
+/*iframe{display: none;}*/
+.navbar-header{
+	float: left;
+	width: 100%;
+	min-height: 814px;
+	margin:0px!important;
+	padding: 0px!important;
+	background-image: url(images/bg-top.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.content-header{
+	width: 100%;
+	min-height: 814px;
+	margin:0px!important;
+	padding: 0px!important;
+	background-image: url(images/header.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	position: absolute;
+	top: 64px;
+}
+.links-download-header{
+	display: block;
+	margin: auto;
+	width: 980px;
+    position: relative;
+    z-index:1;
+}
+.links-download-header .links-download-header-content{
+	float: right;
+	width: 120px;
+	margin-top: 20px;
+}
+.links-download-header a{
+	float: left;
+	margin-bottom: 10px;
+}
+.content{
+	float: left;
+	width: 100%;
+	margin:0px!important;
+	padding: 0px!important;
+	padding-top: 130px!important;
+	padding-bottom: 60px!important;
+}
+ul{list-style: none;}
+.content ul.autorizado li .ul-content{
+    float: left;
+    width: 100%;
+}
+.content ul.autorizado li strong, ul li p{
+    font-size: 15px!important;
+    color: #169085;
+    margin: auto;
+    display: block;
+    width: 80%!important;
+}
+.content ul.autorizado li strong{
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 1px;
+}
+.content ul.autorizado li p{
+    padding: 15px;
+    padding-top: 0px;
+}
+.content .cartoesaceitos h1, .content .saques h1{
+	font-size: 15px;
+	font-weight: 600!important;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	color: #169085;
+	float: left;
+	width: 100%;
+	letter-spacing: 1px;
+}
+.content .cartoesaceitos ul li{
+	float: left;
+	width: 20%;
+	text-align: center;
+	margin: 60px 0px;
+}
+.content .cartoesaceitos ul{
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.content .saques h1{
+	margin-top: 16px;
+}
+.content .saques ul li{
+	display: inline-block;
+	margin: 60px 10px;
+}
+
+
+.content h2{
+	font-size: 24px;
+	font-weight: 300!important;
+	padding-top: 0px;
+	margin-top: 20px;
+	margin-bottom: 55px;
+}
+.content .btn{
+	margin-bottom: 84px;
+}
+.btn.active, .btn:active {
+	background-image: none;
+	outline: 0;
+	-webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,.125);
+	box-shadow: inset 0 0px 0px rgba(0,0,0,.125);
+}
+
+.content p{
+	width: 920px;
+	font-size: 21px;
+	margin: auto;
+	margin-bottom: 35px;
+}
+
+.videos{
+	float: left;
+	width: 100%;
+	margin:0px!important;
+	background: #f8fbe2;
+	padding: 100px 0px;
+	padding-bottom: 60px;
+}
+.list-vt-thumb{
+	margin: 30px 0px;
+}
+.list-vt-thumb img{
+	cursor: pointer;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-ms-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+}
+.list-vt-thumb img:hover{
+	zoom: 1;
+	filter: alpha(opacity=50);
+	opacity: 0.7;
+}
+.videotext{
+	margin: 60px 0px;
+}
+.loadbigvideo{
+	border-radius: 15px;
+}
+.loading{
+    opacity: 0.3;
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+.loading img{
+    width: 200px;
+}
+
+.tarifas{
+    float: left;
+    width: 100%;
+    min-height: 814px;
+    margin:0px!important;
+    padding: 0px!important;
+    background-image: url(images/tarifas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+}
+.tarifagraficos{
+    float: left;
+    min-height: 814px;
+    padding: 30px;
+    background-image: url(images/tarifagraficos.png);
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.tarifagraficos img{
+    vertical-align:middle;
+}
+.img_tarifas_mobile{
+    display: none;
+}
+
+.resolvasuavidafinanceira{
+    margin: 80px 0px;
+}
+.resolvasuavidafinanceira h1{
+    margin-bottom: 80px;
+}
+.resolvasuavidafinanceira ul li{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+.resolvasuavidafinanceira ul li span{
+    display: block;
+    margin: auto;
+    width: 65%;
+    margin-top:30px;
+    color: #02373e;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.terasuaconta{
+    float: left;
+    width: 100%;
+    min-height: 520px;
+    margin:0px!important;
+    padding: 0px!important;
+    background-image: url(images/tersuaconta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.terasuaconta img{
+    margin: auto;
+    margin-top: 100px;
+}
+.img_ter_sua_conta_m{
+    display: none;
+}
+.accordion_duvidas{
+    padding-top: 60px!important;
+    padding-bottom: 60px!important;
+}
+.accordion_duvidas #accordion{
+    text-align: left;
+    border: 1px solid #7d9693!important;
+    border-radius: 15px!important;
+    margin-top: 30px;
+}
+.accordion_duvidas .panel{
+    background: transparent;
+}
+.accordion_duvidas #accordion a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 300;
+    color: #305162;
+}
+.panel-body{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #305162;
+}
+.panel-body small{
+    font-size: 11px;
+}
+.conferi{
+    min-height: 60px;
+}
+.accordion_duvidas #accordion a img{
+    margin-right:8px;
+    margin-top: -1px;
+}
+.accordion_duvidas #accordion a span{
+    float: right;
+    width: 95%;
+    line-height: 20px;
+}
+.panel-group .panel-heading + .panel-collapse > .list-group, .panel-group .panel-heading + .panel-collapse > .panel-body {
+    border-top: 0px;
+}
+
+.download-title{
+    margin-top: 30px;
+}
+.download-links{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.download-links a{
+    margin: 6px;
+}
+
+.footer{
+	float: left;
+	width: 100%;
+	min-height: 405px;
+	margin:0px!important;
+	padding: 0px!important;
+	padding-top: 87px!important;
+	background: #69a544;
+}
+.text-footer{
+    margin-top: 70px;
+    font-size: 20px;
+    text-align: left;
+    color: #ffffff;
+    padding-left: 60px;
+}
+.text-footer p{
+    margin-bottom: 5px;
+}
+.text-footer-left{
+    border-right: 2px solid #ffffff;
+    text-align: right;
+    padding-right: 60px;
+}
+.text-footer-left p{
+    text-align: left;
+    display: block;
+    width: 70%;
+    float: right;
+}
+.download-links-footer{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+/*mobile*/
+@media(max-width: 1020px) {
+    .links-download-header{
+        display: block;
+        margin: auto;
+        width: 90%;
+        position: relative;
+        z-index:1;
+    }
+    .links-download-header .links-download-header-content{
+        float: right;
+        width: 120px;
+        margin-top: 20px;
+    }
+    .links-download-header a{
+        float: left;
+        margin-bottom: 10px;
+    }
+}
+@media(max-width: 995px){
+	.content p{
+		width: 100%;
+	}
+
+
+    .text-footer{
+        margin-top: 70px;
+        font-size: 20px;
+        text-align: center;
+        color: #ffffff;
+        padding-left: 0px!important;
+    }
+    .text-footer p{
+        margin-bottom: 5px;
+    }
+    .text-footer-left{
+        border-right: 0px solid #ffffff;
+        text-align: center!important;
+        padding-right: 0px!important;
+    }
+    .text-footer-left p{
+        text-align: center;
+        display: block;
+        width: 100%;
+        float: left;
+    }
+    .download-links-footer{
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+}
+@media(max-width: 918px){
+	.navbar-header{
+		min-height: 400px;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: center top;
+	}
+	.content-header{
+		min-height: 400px!important;
+		background-repeat: no-repeat;
+		background-position: center top;
+		background-size: 65%;
+		position: absolute;
+		top: 0px!important;
+	}
+	.content{
+		padding-top: 0px!important;
+	}
+}
+@media(max-width: 872px){
+	.navbar-header{
+		min-height: 380px;
+		background-position: center top;
+	}
+	.content-header{
+		min-height: 380px!important;
+	}
+
+    .autorizado{
+        float: left;
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 30px;
+    }
+    .autorizado li{
+        float: left;
+        width: 100%;
+    }
+    .cartoesaceitos ul{
+        margin: 0px;
+        padding: 0px;
+        margin-top: 5px;
+        width: 100%;
+    }
+    .cartoesaceitos ul li{
+        display: inherit;
+        float: left;
+        width: 100%!important;
+        margin-bottom: 3px!important;
+    }
+    .saques h1{
+        margin-top: 50px!important;
+        padding-bottom: 30px!important;
+    }
+    .saques ul{
+        margin: 0px;
+        padding: 0px;
+        margin-top: 5px;
+        width: 100%;
+        float: left;
+    }
+    .saques ul li{
+        display: inherit;
+        float: left;
+        width: 100%!important;
+        padding: 0px!important;
+        margin: 0px!important;
+        margin-bottom: 30px!important;
+    }
+    .list-vt-thumb{
+        overflow: auto;
+    }
+    .list-vt-thumb img{
+        margin-bottom: 30px;
+    }
+    .videotext{
+        height: 60px;
+        padding: 0px!important;
+        margin: 0px!important;
+        width: 100%;
+        text-align: center!important;
+    }
+    .videotext img{
+        display: block!important;
+        width: 70%!important;
+        padding-top: 0px!important;
+        margin: 0px!important;
+        margin: auto!important;
+    }
+    .tarifas{
+        min-height: 800px!important;
+        height: 800px!important;
+    }
+    .tarifagraficos{
+        min-height: 800px!important;
+        height: 800px!important;
+    }
+    .resolvasuavidafinanceira{
+        padding: 0px!important;
+        margin: 0px!important;
+        width: 100%;
+        padding-bottom: 60px!important;
+        text-align: center!important;
+    }
+    .resolvasuavidafinanceira h1 {
+        margin-bottom: 15px;
+    }
+    .resolvasuavidafinanceira img{
+        display: block!important;
+        width: 70%!important;
+        padding-top: 30px!important;
+        margin: 0px!important;
+        margin: auto!important;
+        margin-bottom: 0px!important;
+    }
+    .resolvasuavidafinanceira ul{
+        margin: 0px!important;
+        padding: 0px!important;
+    }
+    .resolvasuavidafinanceira ul li{
+        width: 100%!important;
+    }
+    .resolvasuavidafinanceira ul li img{
+        width: auto!important;
+    }
+    .terasuaconta{
+        float: left;
+    }
+
+    .accordion_duvidas{
+        float: left;
+        width: 100%;
+        padding: 0px!important;
+        padding-top: 60px!important;
+        padding-bottom: 60px!important;
+        margin:15px!important;
+    }
+
+    .accordion_duvidas h1{
+        height: 60px;
+        padding: 0px!important;
+        margin: 0px!important;
+        width: 100%;
+        text-align: center!important;
+    }
+    .accordion_duvidas h1 img{
+        display: block!important;
+        width: 35%!important;
+        padding-top: 0px!important;
+        margin: 0px!important;
+        margin: auto!important;
+    }
+    .accordion_duvidas #accordion a{
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: 300;
+        color: #305162;
+    }
+    .conferi{
+        min-height: 20px!important;
+    }
+    .img-collapse{
+        width: 100%;
+    }
+    .download-title img, .text-footer-title{
+        display: block !important;
+        width: 70% !important;
+        padding-top: 30px !important;
+        margin: 0px !important;
+        margin: auto !important;
+        margin-bottom: auto;
+        margin-bottom: 0px !important;
+    }
+    .footer p{
+        font-size: 13px!important;
+    }
+}
+@media(max-width: 780px){
+	.navbar-header{
+		min-height: 350px;
+		background-position: center top;
+	}
+	.content-header{
+		min-height: 350px!important;
+	}
+}
+
+@media(max-width: 768px){
+	.navbar-header{
+		min-height: 350px;
+		background-position: center top;
+	}
+	.content-header{
+		min-height: 350px!important;
+	}
+	.content{
+		padding-top: 0px!important;
+	}
+
+	.footer h3{
+		text-align: center;	
+		margin-bottom: 50px;
+	}
+	.footer img{
+		float: inherit;
+		margin: auto!important;
+	}
+
+}
+@media(max-width: 700px){
+	.navbar-header{
+		min-height: 300px;
+		background-position: center top;
+	}
+	.content-header{
+		min-height: 300px!important;
+        background-size: 60%;
+        background-position: center 50px;
+	}
+
+    .links-download-header{
+        display: block;
+        margin: auto;
+        width: 100%;
+        position: relative;
+        z-index:1;
+    }
+    .links-download-header .links-download-header-content{
+        float: left;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .links-download-header a{
+        float: none;
+        margin-bottom: 10px;
+        margin: 5px;
+    }
+    .links-download-header a img{
+        width: 70px;
+    }
+    .img_ter_sua_conta_g{
+        display: none;
+    }
+    .img_ter_sua_conta_m{
+        display: block;
+    }
+
+}
+
+@media(max-width: 600px){
+	.navbar-header{
+		min-height: 250px;
+		background-position: center top;
+	}
+	.content-header{
+		min-height: 250px!important;
+	}
+    .accordion_duvidas #accordion span{
+        width: 93%!important;
+    }
+    .accordion_duvidas #accordion a{
+        font-size: 11px!important;
+        line-height: 11px;
+    }
+    .conferi{
+        height: 60px;
+    }
+}
+@media(max-width: 523px){
+    .tarifas{
+        min-height: 700px!important;
+        height: 700px!important;
+    }
+    .tarifagraficos{
+        min-height: 700px!important;
+        height: 700px!important;
+    }
+    .img_tarifas_g{
+        display: none;
+    }
+    .img_tarifas_mobile{
+        display: block;
+    }
+
+}
+@media(max-width: 485px){
+	.navbar-header{
+		min-height: 200px;
+		background-position: center top;
+	}
+	.content-header{
+		min-height: 200px!important;
+        background-size: 60%;
+        background-position: center 30px;
+	}
+    .links-download-header .links-download-header-content{
+        margin-top: 5px;
+    }
+    .links-download-header a img{
+        width: 50px;
+    }
+    .videos{
+        padding: 40px 0px;
+    }
+    .download-links img{
+        width: 120px;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 399px){
+	.navbar-header{
+		min-height: 160px;
+		background-position: center top;
+	}
+	.content-header{
+		min-height: 160px!important;
+        background-size: 50%;
+        background-position: center 30px;
+	}
+    .tarifas{
+        min-height: 500px!important;
+        height: 500px!important;
+    }
+    .tarifagraficos{
+        min-height: 500px!important;
+        height: 500px!important;
+        padding: 6px;
+    }
+
+    .accordion_duvidas #accordion span{
+        width: 90%!important;
+    }
+    .accordion_duvidas #accordion a{
+        font-size: 11px!important;
+        line-height: 11px;
+    }
+    .panel-heading{
+        height: 80px;
+    }
+}
+@media(max-width: 336px){
+	.navbar-header{
+		min-height: 150px;
+		background-position: center top;
+	}
+	.content-header{
+		min-height: 150px!important;
+	}
+}
+@media(max-width: 285px){
+	.navbar-header{
+		min-height: 120px;
+		background-position: center top;
+	}
+	.content-header{
+		min-height: 120px!important;
+	}
+
+}
